@@ -1,3 +1,9 @@
+html {
+    font-family: 'Concert One', cursive;
+}
+
+/* Container Groups */
+
 .row-container {
     display: flex;
     justify-content: space-evenly;
@@ -19,22 +25,28 @@
     margin: auto
 }
 
+/* Red Groups */
+
 #red {
     background: red;
 }
 
 #red:hover #red-info-1 {
-    display: block
+    display: block;
+    position: relative;
+    z-index: 99;
 }
 
 #red:hover #red-info-2 {
     display: block;
+    position: relative;
+    z-index: 99;
 }
 
 #red-info-1 {
     background: red;
     display: none;
-    margin: 16px 100px 0 0;
+    margin: 20px 100px 0 0;
 }
 
 #red-info-2 {
@@ -43,22 +55,56 @@
     margin: 0;
 }
 
+#firebrick {
+    background: firebrick;
+}
+
+#firebrick:hover #firebrick-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#firebrick:hover #firebrick-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#firebrick-info-1 {
+    background: firebrick;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#firebrick-info-2 {
+    background: firebrick;
+    display: none;
+    margin: 0;
+}
+
+/* Green Groups */
+
 #green {
     background: green;
 }
 
 #green:hover #green-info-1 {
     display: block;
+    position: relative;
+    z-index: 99;
 }
 
 #green:hover #green-info-2 {
     display: block;
+    position: relative;
+    z-index: 99;
 }
 
 #green-info-1 {
     background: green;
     display: none;
-    margin: 16px 100px 0 0;
+    margin: 20px 100px 0 0;
 }
 
 #green-info-2 {
@@ -67,26 +113,88 @@
     margin: 0;
 }
 
+#darkgreen {
+    background: darkgreen;
+}
+
+#darkgreen:hover #darkgreen-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darkgreen:hover #darkgreen-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darkgreen-info-1 {
+    background: darkgreen;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#darkgreen-info-2 {
+    background: darkgreen;
+    display: none;
+    margin: 0;
+}
+
+/* Blue Groups */
+
 #blue {
     background: blue;
 }
 
 #blue:hover #blue-info-1 {
     display: block;
+    position: relative;
+    z-index: 99;
 }
 
 #blue:hover #blue-info-2 {
     display: block;
+    position: relative;
+    z-index: 99;
 }
 
 #blue-info-1 {
     background: blue;
     display: none;
-    margin: 16px 100px 0 0;
+    margin: 20px 100px 0 0;
 }
 
 #blue-info-2 {
     background: blue;
+    display: none;
+    margin: 0;
+}
+
+#mediumblue {
+    background: mediumblue;
+}
+
+#mediumblue:hover #medblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#mediumblue:hover #medblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#medblue-info-1 {
+    background: mediumblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#medblue-info-2 {
+    background: mediumblue;
     display: none;
     margin: 0;
 }
