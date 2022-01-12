@@ -11,3 +11,5 @@ More to come...
 2nd Jan 2022 - Worked with dropdown menu's, learnt I couldnt style the options, moved onto hidden containers that are revealed on hover.
 
 3rd Jan 2022 - Testing out margins and borders, didn't work too well so I kept them square. Worked out z-index for overlay of containers below the top containers. Google Fonts were also added, so far "Concert One" im liking.
+
+12th Jan 2022 - Added a .gitignore, finished red colour group.
