@@ -55,6 +55,174 @@ html {
     margin: 0;
 }
 
+#lightsalmon {
+    background: lightsalmon;
+}
+
+#lightsalmon:hover #lightsalmon-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightsalmon:hover #lightsalmon-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightsalmon-info-1 {
+    background: lightsalmon;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#lightsalmon-info-2 {
+    background: lightsalmon;
+    display: none;
+    margin: 0;
+}
+
+#salmon {
+    background: salmon;
+}
+
+#salmon:hover #salmon-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#salmon:hover #salmon-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#salmon-info-1 {
+    background: salmon;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#salmon-info-2 {
+    background: salmon;
+    display: none;
+    margin: 0;
+}
+
+#darksalmon {
+    background: darksalmon;
+}
+
+#darksalmon:hover #darksalmon-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}   
+
+#darksalmon:hover #darksalmon-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darksalmon-info-1 {
+    background: darksalmon;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#darksalmon-info-2 {
+    background: darksalmon;
+    display: none;
+    margin: 0;
+}
+
+#lightcoral {
+    background: lightcoral;
+}
+
+#lightcoral:hover #lightcoral-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightcoral:hover #lightcoral-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightcoral-info-1 {
+    background: lightcoral;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#lightcoral-info-2 {
+    background: lightcoral;
+    display: none;
+    margin: 0;
+}
+
+#indianred {
+    background: indianred;
+}
+
+#indianred:hover #indianred-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#indianred:hover #indianred-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#indianred-info-1 {
+    background: indianred;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#indianred-info-2 {
+    background: indianred;
+    display: none;
+    margin: 0;
+}
+
+#crimson {
+    background: crimson;
+}
+
+#crimson:hover #crimson-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#crimson:hover #crimson-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#crimson-info-1 {
+    background: crimson;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#crimson-info-2 {
+    background: crimson;
+    display: none;
+    margin: 0;
+}
+
 #firebrick {
     background: firebrick;
 }
@@ -79,6 +247,34 @@ html {
 
 #firebrick-info-2 {
     background: firebrick;
+    display: none;
+    margin: 0;
+}
+
+#darkred {
+    background: darkred;
+}
+
+#darkred:hover #darkred-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darkred:hover #darkred-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darkred-info-1 {
+    background: darkred;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#darkred-info-2 {
+    background: darkred;
     display: none;
     margin: 0;
 }
