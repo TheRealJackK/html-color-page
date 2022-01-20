@@ -2,6 +2,19 @@ html {
     font-family: 'Concert One', cursive;
 }
 
+body > header {
+    display: flex;
+    justify-content: center;
+}
+
+body > header > h1 {
+    color: rgba(0, 0, 0, 0.7);
+    border: solid 4px black;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    padding: 10px; 
+}
+
 /* Container Groups */
 
 .row-container {
@@ -14,15 +27,27 @@ html {
     flex-direction: column;
 }
 
+.box-container h2 {
+    text-align: center;
+}
+
 .color-box {
     width: 300px;
     height: 50px;
     margin: 1em;
+    border-radius: 3px;
 }
 
 .color-box > h2 {
     text-align: center;
-    margin: auto
+    margin: auto;
+    color: black;
+    transition: 500ms;
+}
+
+.color-box:hover > h2 {
+    color: white;
+    cursor: pointer;
 }
 
 /* Red Groups */
@@ -367,6 +392,118 @@ html {
     margin: 0;
 }
 
+#cadetblue {
+    background: cadetblue;
+}
+
+#cadetblue:hover #cadetblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#cadetblue:hover #cadetblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#cadetblue-info-1 {
+    background: cadetblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#cadetblue-info-2 {
+    background: cadetblue;
+    display: none;
+    margin: 0;
+}
+
+#steelblue {
+    background: steelblue;
+}
+
+#steelblue:hover #steelblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#steelblue:hover #steelblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#steelblue-info-1 {
+    background: steelblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}   
+
+#steelblue-info-2 {
+    background: steelblue;
+    display: none;
+    margin: 0;
+}
+
+#lightsteelblue {
+    background: lightsteelblue;
+}
+
+#lightsteelblue:hover #lightsteelblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightsteelblue:hover #lightsteelblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightsteelblue-info-1 {
+    background: lightsteelblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#lightsteelblue-info-2 {
+    background: lightsteelblue;
+    display: none;
+    margin: 0;
+}
+
+#lightblue {
+    background: lightblue;
+}
+
+#lightblue:hover #lightblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightblue:hover #lightblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#lightblue-info-1 {
+    background: lightblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#lightblue-info-2 {
+    background: lightblue;
+    display: none;
+    margin: 0;
+}   
+
 #mediumblue {
     background: mediumblue;
 }
@@ -391,6 +528,90 @@ html {
 
 #medblue-info-2 {
     background: mediumblue;
+    display: none;
+    margin: 0;
+}
+
+#darkblue {
+    background: darkblue;
+}
+
+#darkblue:hover #darkblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darkblue:hover #darkblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#darkblue-info-1 {
+    background: darkblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#darkblue-info-2 {
+    background: darkblue;
+    display: none;
+    margin: 0;
+}
+
+#navy {
+    background: navy;
+}
+
+#navy:hover #navy-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#navy:hover #navy-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#navy-info-1 {
+    background: navy;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#navy-info-2 {
+    background: navy;
+    display: none;
+    margin: 0;
+}
+
+#midnightblue {
+    background: midnightblue;
+}
+
+#midnightblue:hover #midnightblue-info-1 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#midnightblue:hover #midnightblue-info-2 {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+#midnightblue-info-1 {
+    background: midnightblue;
+    display: none;
+    margin: 20px 100px 0 0;
+}
+
+#midnightblue-info-2 {
+    background: midnightblue;
     display: none;
     margin: 0;
 }
